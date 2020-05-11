@@ -1,0 +1,46 @@
+{
+  "name": "@elunic/ecs-tsconfig",
+  "version": "0.1.0",
+  "description": "The elunic coding styles for TypeScript (tsconfig)",
+  "files": [
+    "tsconfig.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }
+  },
+  "lint-staged": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elunic/ecs-tsconfig.git"
+  },
+  "keywords": [
+    "elunic",
+    "typescript",
+    "styles",
+    "ecs"
+  ],
+  "author": {
+    "name": "William Hefter",
+    "email": "wh@elunic.com"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "typescript": "~3.8.3"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "typescript": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
